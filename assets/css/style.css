@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* #region Main */
+
+.start img{
+    width: 20%;
+}
+
+.start h1{
+    font-size: 4rem;
+    margin: 0;
+}
+
+.start .line{
+    height: 5px;
+    width: 10rem;
+    border-radius: 20px;
+}
+
+.start .star{
+    font-size: 2rem;
+}
+
+.start div:last-of-type{
+    font-size: 2rem;
+}
+
+/* #endregion Main */
