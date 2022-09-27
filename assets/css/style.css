@@ -90,6 +90,10 @@ header {
     background-color: var(--bs-bg-primary);
 }
 
+.contact .btn:hover {
+    background-color: var(--bs-bg-primary);
+}
+
 .location {
     background-color: var(--bs-bg-secondary);
 }
