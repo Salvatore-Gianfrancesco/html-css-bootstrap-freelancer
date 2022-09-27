@@ -103,8 +103,16 @@ header {
     border-radius: 50%;
 }
 
-
 /* #endregion Main */
+
+/* #region Footer */
+
+footer {
+    background-color: var(--bt-bg-header);
+    font-size: 0.8rem;
+}
+
+/* #endregion Footer */
 
 /* #region Responsive */
 
