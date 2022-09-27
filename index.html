@@ -62,7 +62,7 @@
                         <h1 class="pt-3">Start Bootstrap</h1>
 
                         <!-- Divider -->
-                        <div class="divider py-2 d-flex justify-content-center align-items-center">
+                        <div class="divider pt-2 pb-3 d-flex justify-content-center align-items-center">
                             <div class="line bg-light"></div>
                             <div class="star px-2 px-md-3"><i class="fa-solid fa-star"></i></div>
                             <div class="line bg-light"></div>
@@ -133,14 +133,17 @@
 
         <!-- About -->
         <section class="about text-center py-4 py-md-5">
+            <!-- Title -->
             <h2 class="text-uppercase">About</h2>
 
+            <!-- Divider -->
             <div class="divider pt-2 pb-3 d-flex justify-content-center align-items-center">
                 <div class="line_small bg-light"></div>
                 <div class="star px-2 px-md-3"><i class="fa-solid fa-star"></i></div>
                 <div class="line_small bg-light"></div>
             </div>
 
+            <!-- Text column -->
             <div class="container">
                 <div class="row row-cols-1 g-2 g-md-4 px-5">
                     <div class="col col-md-6 text-start">
@@ -157,6 +160,7 @@
                 </div>
             </div>
 
+            <!-- Download button -->
             <button type="button" class="btn btn-outline-light mt-3">
                 <i class="fa-solid fa-download"></i> Download
             </button>
@@ -164,22 +168,50 @@
         <!-- /About -->
 
         <!-- Contact Me -->
-        <section class="contact text-dark p-5">
+        <section class="contact text-dark text-center py-4 py-md-5">
+            <!-- Title -->
+            <h2>CONTACT ME</h2>
+
+            <!-- Divider -->
+            <div class="divider pt-2 pb-3 d-flex justify-content-center align-items-center">
+                <div class="line_small"></div>
+                <div class="star px-2 px-md-3"><i class="fa-solid fa-star"></i></div>
+                <div class="line_small"></div>
+            </div>
+
+            <!-- Form -->
             <div class="container">
-                <div class="row">
-                    <div class="col-12 text-center">
-                        <h2>CONTACT ME</h2>
-
-                        <div class="user_data text-start">
-                            <p>Name, Email, bla bla...</p>
+                <div class="row row-cols-1">
+                    <div class="col text-start px-5">
+                        <div class="mb-2">
+                            <label for="FormControlInput1" class="form-label mb-0">Name</label>
+                            <input type="email" class="form-control border-0 border-bottom rounded-0 shadow-none"
+                                id="FormControlInput1">
                         </div>
 
-                        <div class="text-start">
-                            <a href="" class="btn">Send</a>
+                        <div class="mb-2">
+                            <label for="FormControlInput2" class="form-label mb-0">Email Address</label>
+                            <input type="email" class="form-control border-0 border-bottom rounded-0 shadow-none"
+                                id="FormControlInput2">
                         </div>
+
+                        <div class="mb-2">
+                            <label for="FormControlInput3" class="form-label mb-0">Phone Number</label>
+                            <input type="email" class="form-control border-0 border-bottom rounded-0 shadow-none"
+                                id="FormControlInput3">
+                        </div>
+
+                        <div class="mb-2">
+                            <label for="FormControlTextarea" class="form-label mb-0">Message</label>
+                            <textarea class="form-control border-0 border-bottom rounded-0 shadow-none"
+                                id="FormControlTextarea" rows="4"></textarea>
+                        </div>
+
+                        <!-- Send button -->
+                        <button type="button" class="btn mt-1 text-light">Send</button>
                     </div>
                 </div>
-            </div>
+            </div>            
         </section>
         <!-- /Contact Me -->
 

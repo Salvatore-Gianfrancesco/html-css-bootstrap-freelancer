@@ -68,9 +68,20 @@ header{
     color: var(--bs-dark);
 }
 
-.portfolio .line{
+.portfolio .line,
+.contact .line_small{
     background-color: var(--bs-dark);
 }
+
+.contact,
+.contact label{
+    color: var(--bs-dark);
+}
+
+.contact .btn{
+    background-color: var(--bs-bg-primary);
+}
+
 
 /* #endregion Main */
 
