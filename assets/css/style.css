@@ -1,12 +1,12 @@
 /* #region Common */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-:root{
+:root {
     --bt-bg-header: #2c3e50;
     --bs-bg-primary: #1bbc9d;
     --bs-bg-secondary: #3a546d;
@@ -14,40 +14,48 @@
     --bs-light: #fff;
 }
 
-.line{
+.line {
     height: 5px;
     width: 75px;
     border-radius: 30px;
 }
 
-.line_small{
+.line_small {
     height: 5px;
     width: 50px;
     border-radius: 30px;
 }
 
-.star{
+.star {
     font-size: 1.5rem;
 }
 
-h1{
+h1 {
     font-size: 2.5rem;
 }
 
-h2{
+h2 {
     font-size: 2rem;
 }
 
 /* #endregion Common */
 
+/* #region Utilities */
+
+.bt_accent {
+    color: var(--bs-bg-primary);
+}
+
+/* #endregion Utilities */
+
 /* #region Header */
 
-header{
+header {
     background-color: var(--bt-bg-header);
     font-weight: bold;
 }
 
-.nav-link{
+.nav-link {
     color: var(--bs-light);
 }
 
@@ -56,30 +64,43 @@ header{
 /* #region Main */
 
 .start,
-.about{
+.about {
     background-color: var(--bs-bg-primary);
 }
 
-.start img{
+.start img {
     width: 250px;
 }
 
-.portfolio h2{
+.portfolio h2 {
     color: var(--bs-dark);
 }
 
 .portfolio .line,
-.contact .line_small{
+.contact .line_small {
     background-color: var(--bs-dark);
 }
 
 .contact,
-.contact label{
+.contact label {
     color: var(--bs-dark);
 }
 
-.contact .btn{
+.contact .btn {
     background-color: var(--bs-bg-primary);
+}
+
+.location {
+    background-color: var(--bs-bg-secondary);
+}
+
+.location i {
+    width: 40px;
+    height: 40px;
+    padding: 0.6rem;
+    margin: 0 0.2rem;
+    border: 1px solid var(--bs-light);
+    border-radius: 50%;
 }
 
 
@@ -88,29 +109,29 @@ header{
 /* #region Responsive */
 
 @media screen and (min-width: 768px) {
-    h1{
+    h1 {
         font-size: 3rem;
     }
 
-    h2{
+    h2 {
         font-size: 2.5rem;
     }
 
-    .line{
+    .line {
         width: 150px;
     }
 
-    .line_small{
+    .line_small {
         width: 100px;
     }
 }
 
 @media screen and (min-width: 1200px) {
-    .line{
+    .line {
         width: 175px;
     }
 
-    .line_small{
+    .line_small {
         width: 150px;
     }
 }
