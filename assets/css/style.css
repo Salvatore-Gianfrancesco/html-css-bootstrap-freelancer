@@ -20,8 +20,22 @@
     border-radius: 30px;
 }
 
+.line_small{
+    height: 5px;
+    width: 50px;
+    border-radius: 30px;
+}
+
 .star{
     font-size: 1.5rem;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+h2{
+    font-size: 2rem;
 }
 
 /* #endregion Common */
@@ -41,9 +55,8 @@ header{
 
 /* #region Main */
 
-/* Start Bootstrap */
-
-.start{
+.start,
+.about{
     background-color: var(--bs-bg-primary);
 }
 
@@ -51,40 +64,43 @@ header{
     width: 250px;
 }
 
-.start h1{
-    font-size: 2.5rem;
-}
-
-/* /Start Bootstrap */
-
-/* Portfolio */
-
 .portfolio h2{
     color: var(--bs-dark);
-    font-size: 2rem;
 }
 
 .portfolio .line{
     background-color: var(--bs-dark);
 }
 
-/* /Portfolio */
-
 /* #endregion Main */
 
 /* #region Responsive */
 
 @media screen and (min-width: 768px) {
-    .start h1{
+    h1{
         font-size: 3rem;
+    }
+
+    h2{
+        font-size: 2.5rem;
     }
 
     .line{
         width: 150px;
     }
 
-    .portfolio h2{
-        font-size: 2.5rem;
+    .line_small{
+        width: 100px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .line{
+        width: 175px;
+    }
+
+    .line_small{
+        width: 150px;
     }
 }
 
