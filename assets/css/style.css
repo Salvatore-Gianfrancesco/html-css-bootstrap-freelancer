@@ -31,6 +31,8 @@ header{
 
 /* #region Main */
 
+/* Start Bootstrap */
+
 .start{
     background-color: var(--bs-bg-primary);
 }
@@ -50,11 +52,23 @@ header{
 }
 
 .start .star{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
-.start div:last-of-type{
-    font-size: 2rem;
-}
+/* /Start Bootstrap */
 
 /* #endregion Main */
+
+/* #region Responsive */
+
+@media screen and (min-width: 768px) {
+    .start h1{
+        font-size: 3rem;
+    }
+
+    .start .line{
+        width: 150px;
+    }
+}
+
+/* #endregion Responsive */
