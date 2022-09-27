@@ -1,8 +1,33 @@
+/* #region Common */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{
+    --bt-bg-header: #2c3e50;
+    --bs-bg-primary: #1bbc9d;
+    --bs-bg-secondary: #3a546d;
+    --bs-dark: #323233;
+    --bs-light: #fff;
+}
+
+/* #endregion Common */
+
+/* #region Header */
+
+header{
+    background-color: var(--bt-bg-header);
+    font-weight: bold;
+}
+
+.nav-link{
+    color: var(--bs-light);
+}
+
+/* #endregion Header */
 
 /* #region Main */
 
